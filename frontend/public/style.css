@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 10%;
+  margin-bottom: 10%;
+  background-color: #B68D40;
+  font-size: 60px;
+  font-weight: 800;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 6px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 500px;
+  max-width: 60%;
+  margin: 1%;
+  padding: 1%;
+  padding-left: 16px;
+  background-color: #122620;
+  border-radius: 10px;
+  border: 1px solid #F4EBD0;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card h1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.card h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.card h3 {
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+.card button {
+  background-color: #F4EBD0;
+  color: #122620;
+  padding: 15px;
+  width: 50%;
+  margin-bottom: 3%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  border-radius: 10px;
+}
+
+.green {
+  background-color: #D6AD60;
+  color: white;
+}
+
+footer {
+  background-color: #D6AD60;
+  padding: 5%;
+  margin-top: 10%;
+  color: black;
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=style.css.map */
